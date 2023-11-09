@@ -1,0 +1,62 @@
+body {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.calculatorBody {
+    width:400px;
+    height:500px;
+    border: solid black 1px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: burlywood
+}
+
+.screen { 
+    width: 350px;
+    height: 60px;
+    margin-top:50px;
+    border: solid black 1px;
+    align-items:right;
+    justify-content:right;
+    display:flex;
+    background-color: gray;
+}
+
+.numbersScreen {
+    margin-top:auto;
+    margin-right:5px;
+}
+
+.buttonBody {
+    display:flex;
+    width:350px;
+    height:300px;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+
+.numbers {
+    width:auto;
+    height:auto;
+}
+
+.numbers button {
+    background-color: orange;
+    width:75px;
+    height:75px;
+    font-size:30px;
+}
+
+.operators {
+    width:100px;
+    height:300px;
+}
+
+.operators button {
+    width:75px;
+    height:75px;
+    font-size:30px;
+}
