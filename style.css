@@ -6,7 +6,7 @@ body {
 
 .calculatorBody {
     width:400px;
-    height:500px;
+    height:600px;
     border: solid black 1px;
     display:flex;
     flex-direction: column;
@@ -22,12 +22,13 @@ body {
     align-items:right;
     justify-content:right;
     display:flex;
-    background-color: gray;
+    background-color: rgb(187, 187, 187);
 }
 
-.numbersScreen {
+.screenContent {
     margin-top:auto;
     margin-right:5px;
+    overflow: hidden;
 }
 
 .buttonBody {
@@ -53,10 +54,12 @@ body {
 .operators {
     width:100px;
     height:300px;
+    margin-top:-75px;
 }
 
 .operators button {
-    width:75px;
+    width:110px;
     height:75px;
     font-size:30px;
 }
+
